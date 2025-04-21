@@ -1,0 +1,19 @@
+[project]
+name = "code-to-wiki"
+version = "0.1.0"
+description = "コードからWikiを自動生成するシステム"
+authors = ["daichiTAAA"]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.23",
+    "langchain-openai>=0.3.14",
+    "python-arango>=7.9.1",
+    "python-dotenv>=1.0.0"
+]
+
+[tool.uv]
+# uv用の追加設定があればここに記載
+
+[tool.setuptools]
+packages = ["src"]
